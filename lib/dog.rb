@@ -19,10 +19,10 @@ class Dog < ActiveRecord::Base
   end
 
   def self.find_or_create_by
-
+    dog = Dog.
   end
 
-  def self.find_by_name
+  def self.find_by_name(name)
 
   end
 
