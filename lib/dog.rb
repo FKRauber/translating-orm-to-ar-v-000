@@ -9,7 +9,9 @@ class Dog < ActiveRecord::Base
   end
 
   def self.save
-
+    dog = Dog.find_by_name
+    dog.save
+    dog
   end
 
   def self.update
@@ -21,7 +23,7 @@ class Dog < ActiveRecord::Base
   end
 
   def self.find_by_name
-    
+
   end
 
   def self.find_by_id
