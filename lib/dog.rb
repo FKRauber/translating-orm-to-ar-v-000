@@ -12,4 +12,12 @@ class Dog < ActiveRecord::Base
 
   end
 
+  def self.update
+
+  end
+
+  def self.find_or_create_by
+
+  end
+
 end
